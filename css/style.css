@@ -1,0 +1,73 @@
+/*Fonts*/
+@font-face
+{
+	font-family: BrandonGrotesque-Medium;
+	src: url(../fonts/BrandonGrotesque-Medium.ttf);	
+}
+
+@font-face
+{
+	font-family: BrandonGrotesque-Light;
+	src: url(../fonts/BrandonGrotesque-Light.ttf);	
+}
+
+@font-face
+{
+	font-family: BrandonGrotesque-Bold;
+	src: url(../fonts/BrandonGrotesque-Bold.ttf);	
+}
+/*Fonts*/
+
+/*Header start*/
+.background_img{
+	background-image: url(../images/back.jpg);
+	background-size: cover;
+}
+
+header{
+	padding-top: 25px;
+}
+
+.menu ul li a{
+	font-family: BrandonGrotesque-Medium;
+	font-size: 18px;
+	padding: 0 20px !important;
+	color: #ffffff !important;
+	transition: 0.2s;
+}
+
+.menu ul li a:hover{
+	color: #bdbdbd !important;
+}
+
+.midsec{
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.midsecc{
+	margin-bottom: 115px;
+	text-align: center;
+}
+
+.midsec p{
+	font-family: BrandonGrotesque-Light;
+	font-size: 30px;
+	color: white !important;
+
+}
+
+.midsec h1{
+	font-family: BrandonGrotesque-Bold;
+	color: white !important;
+	font-size: 68px;
+	padding-bottom: 35px;
+}
+
+.midsec button{
+	font-family: BrandonGrotesque-Bold;
+	color: white;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
